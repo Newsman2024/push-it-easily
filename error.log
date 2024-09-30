@@ -1,0 +1,125 @@
+[12-Sep-2024 12:36:52 UTC] PHP Warning:  Undefined variable $mail in C:\Users\DELL\Desktop\rabbitmq\consumer.php on line 61
+[12-Sep-2024 12:36:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function send() on null in C:\Users\DELL\Desktop\rabbitmq\consumer.php:61
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Channel\AMQPChannel.php(1048): call_user_func()
+#2 [internal function]: PhpAmqpLib\Channel\AMQPChannel->basic_deliver()
+#3 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Channel\AbstractChannel.php(221): call_user_func()
+#4 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Channel\AbstractChannel.php(367): PhpAmqpLib\Channel\AbstractChannel->dispatch()
+#5 C:\Users\DELL\Desktop\rabbitmq\consumer.php(128): PhpAmqpLib\Channel\AbstractChannel->wait()
+#6 {main}
+  thrown in C:\Users\DELL\Desktop\rabbitmq\consumer.php on line 61
+[12-Sep-2024 12:38:56 UTC] PHP Warning:  Undefined variable $mail in C:\Users\DELL\Desktop\rabbitmq\consumer.php on line 61
+[12-Sep-2024 12:38:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function send() on null in C:\Users\DELL\Desktop\rabbitmq\consumer.php:61
+Stack trace:
+#0 [internal function]: {closure}()
+#1 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Channel\AMQPChannel.php(1048): call_user_func()
+#2 [internal function]: PhpAmqpLib\Channel\AMQPChannel->basic_deliver()
+#3 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Channel\AbstractChannel.php(221): call_user_func()
+#4 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Channel\AbstractChannel.php(367): PhpAmqpLib\Channel\AbstractChannel->dispatch()
+#5 C:\Users\DELL\Desktop\rabbitmq\consumer.php(128): PhpAmqpLib\Channel\AbstractChannel->wait()
+#6 {main}
+  thrown in C:\Users\DELL\Desktop\rabbitmq\consumer.php on line 61
+[12-Sep-2024 13:32:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pcntl_signal() in C:\Users\DELL\Desktop\rabbitmq\consumer.php:109
+Stack trace:
+#0 {main}
+  thrown in C:\Users\DELL\Desktop\rabbitmq\consumer.php on line 109
+[12-Sep-2024 13:33:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pcntl_signal() in C:\Users\DELL\Desktop\rabbitmq\consumer.php:109
+Stack trace:
+#0 {main}
+  thrown in C:\Users\DELL\Desktop\rabbitmq\consumer.php on line 109
+[12-Sep-2024 13:34:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pcntl_signal() in C:\Users\DELL\Desktop\rabbitmq\consumer.php:109
+Stack trace:
+#0 {main}
+  thrown in C:\Users\DELL\Desktop\rabbitmq\consumer.php on line 109
+[12-Sep-2024 13:35:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pcntl_signal() in C:\Users\DELL\Desktop\rabbitmq\consumer.php:109
+Stack trace:
+#0 {main}
+  thrown in C:\Users\DELL\Desktop\rabbitmq\consumer.php on line 109
+[13-Sep-2024 21:14:54 UTC] PHP Fatal error:  Uncaught PhpAmqpLib\Exception\AMQPProtocolChannelException: PRECONDITION_FAILED - delivery acknowledgement on channel 1 timed out. Timeout value used: 1800000 ms. This timeout value can be configured, see consumers doc guide to learn more in C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Channel\AMQPChannel.php:224
+Stack trace:
+#0 [internal function]: PhpAmqpLib\Channel\AMQPChannel->channel_close()
+#1 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Channel\AbstractChannel.php(218): call_user_func()
+#2 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Channel\AbstractChannel.php(367): PhpAmqpLib\Channel\AbstractChannel->dispatch()
+#3 C:\Users\DELL\Desktop\rabbitmq\consumer.php(115): PhpAmqpLib\Channel\AbstractChannel->wait()
+#4 {main}
+  thrown in C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Channel\AMQPChannel.php on line 224
+[14-Sep-2024 21:14:44 UTC] PHP Fatal error:  Uncaught PhpAmqpLib\Exception\AMQPProtocolChannelException: PRECONDITION_FAILED - delivery acknowledgement on channel 1 timed out. Timeout value used: 1800000 ms. This timeout value can be configured, see consumers doc guide to learn more in C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Channel\AMQPChannel.php:224
+Stack trace:
+#0 [internal function]: PhpAmqpLib\Channel\AMQPChannel->channel_close()
+#1 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Channel\AbstractChannel.php(218): call_user_func()
+#2 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Channel\AbstractChannel.php(367): PhpAmqpLib\Channel\AbstractChannel->dispatch()
+#3 C:\Users\DELL\Desktop\rabbitmq\consumer.php(115): PhpAmqpLib\Channel\AbstractChannel->wait()
+#4 {main}
+  thrown in C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Channel\AMQPChannel.php on line 224
+[20-Sep-2024 07:48:20 UTC] PHP Fatal error:  Uncaught ErrorException: fwrite(): Send of 8 bytes failed with errno=10054 An existing connection was forcibly closed by the remote host in C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Wire\IO\StreamIO.php:274
+Stack trace:
+#0 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Wire\IO\StreamIO.php(338): PhpAmqpLib\Wire\IO\AbstractIO->error_handler()
+#1 [internal function]: PhpAmqpLib\Wire\IO\StreamIO->error_handler()
+#2 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Wire\IO\StreamIO.php(274): fwrite()
+#3 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AbstractConnection.php(410): PhpAmqpLib\Wire\IO\StreamIO->write()
+#4 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AbstractConnection.php(261): PhpAmqpLib\Connection\AbstractConnection->write()
+#5 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AbstractConnection.php(235): PhpAmqpLib\Connection\AbstractConnection->connect()
+#6 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AMQPStreamConnection.php(71): PhpAmqpLib\Connection\AbstractConnection->__construct()
+#7 C:\Users\DELL\Desktop\rabbitmq\consumer.php(18): PhpAmqpLib\Connection\AMQPStreamConnection->__construct()
+#8 {main}
+
+Next PhpAmqpLib\Exception\AMQPConnectionClosedException: An existing connection was forcibly closed by the remote host in C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Wire\IO\StreamIO.php:290
+Stack trace:
+#0 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AbstractConnection.php(410): PhpAmqpLib\Wire\IO\StreamIO->write()
+#1 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AbstractConnection.php(261): PhpAmqpLib\Connection\AbstractConnection->write()
+#2 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AbstractConnection.php(235): PhpAmqpLib\Connection\AbstractConnection->connect()
+#3 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AMQPStreamConnection.php(71): PhpAmqpLib\Connection\AbstractConnection->__construct()
+#4 C:\Users\DELL\Desktop\rabbitmq\consumer.php(18): PhpAmqpLib\Connection\AMQPStreamConnection->__construct()
+#5 {main}
+  thrown in C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Wire\IO\StreamIO.php on line 290
+[23-Sep-2024 07:31:39 UTC] PHP Fatal error:  Uncaught PhpAmqpLib\Exception\AMQPProtocolChannelException: PRECONDITION_FAILED - delivery acknowledgement on channel 1 timed out. Timeout value used: 1800000 ms. This timeout value can be configured, see consumers doc guide to learn more in C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Channel\AMQPChannel.php:224
+Stack trace:
+#0 [internal function]: PhpAmqpLib\Channel\AMQPChannel->channel_close()
+#1 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Channel\AbstractChannel.php(218): call_user_func()
+#2 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Channel\AbstractChannel.php(367): PhpAmqpLib\Channel\AbstractChannel->dispatch()
+#3 C:\Users\DELL\Desktop\rabbitmq\consumer.php(115): PhpAmqpLib\Channel\AbstractChannel->wait()
+#4 {main}
+  thrown in C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Channel\AMQPChannel.php on line 224
+[25-Sep-2024 08:56:43 UTC] PHP Fatal error:  Uncaught ErrorException: fwrite(): Send of 8 bytes failed with errno=10054 An existing connection was forcibly closed by the remote host in C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Wire\IO\StreamIO.php:274
+Stack trace:
+#0 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Wire\IO\StreamIO.php(338): PhpAmqpLib\Wire\IO\AbstractIO->error_handler()
+#1 [internal function]: PhpAmqpLib\Wire\IO\StreamIO->error_handler()
+#2 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Wire\IO\StreamIO.php(274): fwrite()
+#3 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AbstractConnection.php(410): PhpAmqpLib\Wire\IO\StreamIO->write()
+#4 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AbstractConnection.php(261): PhpAmqpLib\Connection\AbstractConnection->write()
+#5 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AbstractConnection.php(235): PhpAmqpLib\Connection\AbstractConnection->connect()
+#6 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AMQPStreamConnection.php(71): PhpAmqpLib\Connection\AbstractConnection->__construct()
+#7 C:\Users\DELL\Desktop\rabbitmq\consumer.php(18): PhpAmqpLib\Connection\AMQPStreamConnection->__construct()
+#8 {main}
+
+Next PhpAmqpLib\Exception\AMQPConnectionClosedException: An existing connection was forcibly closed by the remote host in C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Wire\IO\StreamIO.php:290
+Stack trace:
+#0 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AbstractConnection.php(410): PhpAmqpLib\Wire\IO\StreamIO->write()
+#1 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AbstractConnection.php(261): PhpAmqpLib\Connection\AbstractConnection->write()
+#2 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AbstractConnection.php(235): PhpAmqpLib\Connection\AbstractConnection->connect()
+#3 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AMQPStreamConnection.php(71): PhpAmqpLib\Connection\AbstractConnection->__construct()
+#4 C:\Users\DELL\Desktop\rabbitmq\consumer.php(18): PhpAmqpLib\Connection\AMQPStreamConnection->__construct()
+#5 {main}
+  thrown in C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Wire\IO\StreamIO.php on line 290
+[25-Sep-2024 12:20:01 UTC] PHP Fatal error:  Uncaught ErrorException: fwrite(): Send of 8 bytes failed with errno=10054 An existing connection was forcibly closed by the remote host in C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Wire\IO\StreamIO.php:274
+Stack trace:
+#0 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Wire\IO\StreamIO.php(338): PhpAmqpLib\Wire\IO\AbstractIO->error_handler()
+#1 [internal function]: PhpAmqpLib\Wire\IO\StreamIO->error_handler()
+#2 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Wire\IO\StreamIO.php(274): fwrite()
+#3 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AbstractConnection.php(410): PhpAmqpLib\Wire\IO\StreamIO->write()
+#4 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AbstractConnection.php(261): PhpAmqpLib\Connection\AbstractConnection->write()
+#5 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AbstractConnection.php(235): PhpAmqpLib\Connection\AbstractConnection->connect()
+#6 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AMQPStreamConnection.php(71): PhpAmqpLib\Connection\AbstractConnection->__construct()
+#7 C:\Users\DELL\Desktop\rabbitmq\consumer.php(18): PhpAmqpLib\Connection\AMQPStreamConnection->__construct()
+#8 {main}
+
+Next PhpAmqpLib\Exception\AMQPConnectionClosedException: An existing connection was forcibly closed by the remote host in C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Wire\IO\StreamIO.php:290
+Stack trace:
+#0 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AbstractConnection.php(410): PhpAmqpLib\Wire\IO\StreamIO->write()
+#1 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AbstractConnection.php(261): PhpAmqpLib\Connection\AbstractConnection->write()
+#2 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AbstractConnection.php(235): PhpAmqpLib\Connection\AbstractConnection->connect()
+#3 C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Connection\AMQPStreamConnection.php(71): PhpAmqpLib\Connection\AbstractConnection->__construct()
+#4 C:\Users\DELL\Desktop\rabbitmq\consumer.php(18): PhpAmqpLib\Connection\AMQPStreamConnection->__construct()
+#5 {main}
+  thrown in C:\Users\DELL\Desktop\rabbitmq\vendor\php-amqplib\php-amqplib\PhpAmqpLib\Wire\IO\StreamIO.php on line 290
